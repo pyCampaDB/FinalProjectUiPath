@@ -566,7 +566,7 @@
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
                                             </ui:CommentOut>
-                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Enviamos el correo a los clientes" sap:VirtualizedContainerService.HintSize="547,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_27" UnSafe="False" WorkflowFileName="SendEmail\SendEmail.xaml">
+                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Enviamos el correo a los clientes" sap:VirtualizedContainerService.HintSize="547,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_27" UnSafe="False" WorkflowFileName="Config\SendEmail\SendEmail.xaml">
                                               <ui:InvokeWorkflowFile.Arguments>
                                                 <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_emailList">[emailList]</InArgument>
                                                 <InArgument x:TypeArguments="x:String" x:Key="in_fullname">[fullname]</InArgument>

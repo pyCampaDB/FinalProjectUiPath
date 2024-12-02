@@ -418,7 +418,7 @@
         <InArgument x:TypeArguments="x:String" x:Key="in_strSecond">[strSecond]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SendEmail - Invoke Workflow File (ProcessOrder\GetClientOrder\SendEmail\SendEmail.xaml)" sap:VirtualizedContainerService.HintSize="580,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="SendEmail\SendEmail.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SendEmail - Invoke Workflow File (ProcessOrder\GetClientOrder\SendEmail\SendEmail.xaml)" sap:VirtualizedContainerService.HintSize="580,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Config\SendEmail\SendEmail.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_emailList">[emailList]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_fullname">[fullname]</InArgument>
